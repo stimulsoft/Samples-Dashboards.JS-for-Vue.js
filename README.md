@@ -15,7 +15,7 @@ A set of examples for working with dashboard components in Vue.js:
 * [Adding a Font to the Resource](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Adding%20a%20Font%20to%20the%20Resource.vue)
 
 #### Printing and Exporting
-* [Printing a Dashboard from Code](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Printing%20the%20Dashboard%20Template%20from%20Code.vue)
+* [Printing a Dashboard from Code](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Printing%20the%20Dashboard%20from%20Code.vue)
 * [Exporting a Dashboard to PDF](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Exporting%20a%20Dashboard%20to%20PDF.vue)
 * [Exporting a Dashboard to HTML](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Exporting%20a%20Dashboard%20to%20HTML.vue)
 * [Exporting a Dashboard from Code with Changing Export Settings](https://github.com/stimulsoft/Samples-Dashboards.JS-for-Vue.js/blob/main/src/Exporting%20a%20Dashboard%20from%20Code%20with%20Changing%20Export%20Settings.vue)
