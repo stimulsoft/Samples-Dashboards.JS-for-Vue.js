@@ -98,7 +98,7 @@
                 </RouterLink>
             </li>
         </ul>
-        Working with Dashboard, and Advanced Features
+        Working with Dashboard and Advanced Features
         <ul>
             <li>
                 <RouterLink to="/How_to_Activate_the_Product">How to Activate the Product</RouterLink>
