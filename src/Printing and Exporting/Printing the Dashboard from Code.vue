@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Stimulsoft } from 'stimulsoft-dashboards-js-vuejs'
+import { Stimulsoft } from 'stimulsoft-dashboards-js-vuejs';
+import '../styles.css';
 
 function printPdf_Click() {
     report.printToPdf();
@@ -10,13 +11,17 @@ function printHtml_Click() {
 }
 
 var report = new Stimulsoft.Report.StiReport();
-report.loadFile("Dashboards/Dashboard.mrt");
-
+report.loadFile('Dashboards/Dashboard.mrt');
 </script>
 
 <template>
-    <button @click=printPdf_Click>Print Dashboard as PDF</button>
-    <button @click=printHtml_Click>Print Dashboard as HTML</button>
+    <div class="container">
+        <h4>This sample demonstrates how to print a dashboard:</h4>
+        <div class="container-button">
+            <button @click="printPdf_Click" class="button" title="Print Dashboard as PDF File">Print PDF</button>
+            <button @click="printHtml_Click" class="button" title="Print Dashboard as HTML File">Print HTML</button>
+        </div>
+    </div>
 </template>
 
 <style scoped></style>
