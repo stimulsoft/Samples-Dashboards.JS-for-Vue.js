@@ -13,8 +13,13 @@ report2.loadFile('Dashboards/Orders.mrt');
     <div class="container">
         <h4>This sample demonstrates how to add two viewers to one page:</h4>
         <div class="container-viewer">
-            <Viewer :report="report1" />
-            <Viewer :report="report2" />
+            <div className="viewer-wrapper">
+                <Viewer :report="report1" />
+            </div>
+
+            <div className="viewer-wrapper">
+                <Viewer :report="report2" />
+            </div>
         </div>
     </div>
 </template>
